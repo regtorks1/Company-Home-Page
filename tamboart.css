@@ -1,0 +1,340 @@
+  
+body {
+    background-color: white;
+    
+}
+header {
+    width : auto;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    
+}
+img {
+    max-height: 150px;
+}
+
+.links{
+    margin: 1.5%; 
+    display: flex;
+    justify-content: center; 
+}
+
+@media only screen and (max-width: 900px) and (min-width: 250px){
+    .links {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+.links a{
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    display: inline-block;
+    color:#bababa;
+    padding: 1%;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-style: normal;
+    line-height: 1em;
+}
+
+   .art{
+        margin: 2%;
+        display:flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        
+   }
+
+   @media only screen and (max-width: 900px) and (min-width: 250px) {
+       .art{
+          width: 100%;
+          min-width: 250px;
+          flex: 1;
+       }
+   }
+
+   
+.description p{
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    color:#bababa;;
+}
+
+
+
+.all {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+}
+
+
+
+.all h2{
+    letter-spacing: 2px;
+    font-family: "Raleway";
+    font-size: 1.7rem;
+    color:rgb(51, 47, 47);
+}
+
+.all p{
+    letter-spacing: 2px;
+    color:#bababa;
+    padding: 1%;
+}
+
+.all button{
+    letter-spacing: 2px;
+    background-color:rgb(236, 236, 11);
+    color: white;
+    border-radius: 18.8rem;
+    width: 60%;
+    height: 30%;
+    border: none;
+    font-family: "Raleway";
+    font-size: 15px;
+    text-transform:uppercase;
+}
+
+.all button:hover{
+    cursor: pointer;
+    transform: translateY(4px);
+}
+
+@media only screen and (max-width: 900px) and (min-width: 250px){
+    .all{
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex: 1;   
+    }
+
+    .all h2{
+        margin: 10%;
+    }
+
+    .all p{
+        margin: 10%;
+    }
+    
+    .all button{
+        margin:-10%;
+    }
+}
+
+
+
+.image1 {
+    display:flex;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 250px){
+    .image1 {
+        margin: 10%;
+    }
+}
+
+ .image1 img{
+    max-height: 150%;
+    padding: 1%;
+    
+}
+
+.essay {
+    text-align: center;
+    margin: 5%;
+}
+
+.essay h3 {
+    letter-spacing: 2px;
+    font-family: "Raleway";
+    font-size: 1.7rem;
+    color:rgb(51, 47, 47);
+
+}
+
+.essay p{
+    letter-spacing: 2px;
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    color: #bababa;
+}
+
+.essay button{
+     letter-spacing: 2px;
+     font-family: "Raleway";
+     font-size: 15px;
+     background-color: white;
+     border: 3px solid grey;
+     width: 20%;
+     height: 100%;
+     border-radius: 0.3rem;
+     text-transform:uppercase;
+     color:grey;
+     padding: 2%;
+
+}
+
+ .essay button:hover{
+     background-color: grey;
+     color: White;
+     cursor: pointer;
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 250px){
+    .essay button{
+        width: 20%;
+    }
+}
+
+hr {
+    width: 50%;
+}
+
+.interior{
+    margin: 5%;
+    width: 80%;
+    background-color: rgb(230, 228, 228);
+    height: 120px;
+    overflow: scroll;
+    overflow-x: scroll;
+    padding: 5%;
+    position: relative;
+      
+}
+
+.scroll{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+    .interior h3{
+        letter-spacing: 2px;
+        font-family: "Raleway";
+        font-size: 20px;
+        color: rgb(51, 47, 47);
+
+    }
+    .scroll p{
+        letter-spacing: 2px;
+        font-family: "Raleway";
+        font-size: 15px;
+        color:#bababa;
+    }
+
+    @media only screen and (max-width: 900px) and (min-width: 250px){
+         .scroll{
+             display: flex;
+             flex-wrap: wrap;
+             flex: 1;
+         }
+    }
+
+    .featuring{
+        margin:auto;
+        width: 100%;
+        display:block;
+        text-align:center;     
+    }
+
+    .market{
+        text-align:center
+    
+    }
+
+    .featuring img{
+        max-height:50%;
+        float: left;
+    }
+
+    .market h1{
+        letter-spacing: 2px;
+        font-family: "Raleway";
+        font-size: 1.3rem;
+        color: rgb(51, 47, 47);
+    }
+
+    .market p{
+        letter-spacing: 2px;
+        font-family: "Raleway";
+        font-size: 1.3rem;
+        color: rgb(51, 47, 47);
+
+    }
+
+    .market button{
+        letter-spacing: 2px;
+     font-family: "Raleway";
+     font-size: 1.1rem;
+     background-color: white;
+     border: 3px solid grey;
+     width: 20%;
+     height: 100%;
+     border-radius: 3px;
+     text-transform:uppercase;
+     color:grey;
+     padding: 2%;
+    }
+
+    .market button:hover{
+        background-color: grey;;
+        color: white;
+        cursor: pointer;
+    }
+
+    .one{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        letter-spacing: 2px;
+        font-family: "Raleway";
+        font-size: 1.3rem;
+        color:#bababa;   
+    }
+
+    .employees{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+    
+    }
+
+    .employee1{
+        height: 10%;
+        width: 10%;
+        
+    
+    }
+
+    .employee2{
+        height: 10%;
+         width: 10%;
+         
+         
+    }
+
+    .first_caption{
+        font-family: "Raleway";
+        font-size: 1.0rem;
+        color: rgb(51, 47, 47);
+        letter-spacing: 2px;
+        margin: 1%;
+    }
+
+    .second_caption{
+        font-family: "Raleway";
+        font-size: 1.0rem;
+        color: rgb(51, 47, 47);
+        letter-spacing: 2px;
+        margin: 1%;
+    }
+
+
+
